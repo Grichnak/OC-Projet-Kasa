@@ -2,10 +2,10 @@
 import React from "react";
 import {Route, Routes} from "react-router-dom";
 import {HomePage} from './pages/home/home';
-import AboutPage from './pages/about/About';
+import {AboutPage} from './pages/about/About';
 import {LogementPage} from "./pages/logement/logement";
 import {PageNotFound} from "./pages/notFound/pageNotFound";
-import {Footer} from "./components/Footer/Footer";
+import Footer from './components/Footer/Footer';
 import {NavBar} from './components/navbar/navBar';
 import './components/navbar/navbar.scss';
 

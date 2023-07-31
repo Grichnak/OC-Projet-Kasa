@@ -5,7 +5,7 @@ import './about.scss';
 import Collapse from "../../components/collapse/Collapse";
 import collapseData from '../../components/collapse/Collapse.json';
 
-const AboutPage = () => {
+export function AboutPage() {
   return (
     <div className="about">
       <Banner image={imgBannerAbout} imageClassName="about-banner-image" banner="about-banner" imageAlt="paysage montagne" />
@@ -18,4 +18,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage;
+// default AboutPage
