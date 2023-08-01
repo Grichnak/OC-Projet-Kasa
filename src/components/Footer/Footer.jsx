@@ -1,5 +1,5 @@
 import logo from '../../assets/logonoir.png';
-import '../../components/Footer/footer.scss'
+import './footer.scss'
 
 function Footer() {
     return (

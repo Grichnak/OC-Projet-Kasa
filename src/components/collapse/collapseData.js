@@ -1,4 +1,4 @@
-[
+export const collapseData = [
     {
         "id": "1",
 		"title": "Fiabilité",
