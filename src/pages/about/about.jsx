@@ -3,7 +3,7 @@ import imgBannerAbout from "../../assets/banner-montagnes.png";
 import Banner from '../../components/banner/Banner';
 import './about.scss';
 import Collapse from "../../components/collapse/Collapse.jsx";
-import { collapseData } from '../../components/collapse/collapseData';
+import { collapseData } from '../../data/collapseData';
 
 export function AboutPage() {
   return (

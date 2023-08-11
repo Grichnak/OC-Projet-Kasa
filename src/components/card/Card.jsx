@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 
 export default function Card({cardId, title, cover}) {
     return (
-        <Link to={`/accomodation/${cardId}`} className="card">
-            <img src={cover} alt="accomodation"/>
+        <Link to={`/logement/${cardId}`} className="card">
+            <img src={cover} alt="logement"/>
             <span className='cardTitle'>{title}</span>
         </Link>
     )
