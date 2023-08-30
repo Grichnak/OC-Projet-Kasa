@@ -1,11 +1,11 @@
-.navigation{
+.navigation {
     padding: 20px;
     display: flex;
     text-decoration: none;
     justify-content: space-between;
 }
 
-.navLogo{
+.navLogo {
     align-items: flex-start;
 }
 
@@ -25,9 +25,9 @@
     color: #FF6060;
 }
 
-@media screen and (min-width: 768px) and (max-width: 980px){
+@media screen and (min-width: 768px) and (max-width: 980px) {
 
-    .navLogo{
+    .navLogo {
         width: 30vw;
     }
 
@@ -36,13 +36,13 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    .navigation{
+    .navigation {
         justify-content: space-around;
     }
 
-    .kasa-logo{
+    .kasa-logo {
         width: 30vw;
     }
 
@@ -55,13 +55,13 @@
         padding-left: 0;
     }
 
-    .navbar ul{
+    .navbar ul {
         font-size: 20px;
         font-weight: 500;
-        line-height: 34px;  
+        line-height: 34px;
     }
 
-    .navbar li{
+    .navbar li {
         width: 30vw;
     }
 }

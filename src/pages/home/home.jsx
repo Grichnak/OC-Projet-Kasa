@@ -5,16 +5,16 @@ import imgBannerHome from '../../assets/banner-falaises.png'
 import logement from '../../data/logements.json'
 
 export function HomePage() {
-	return (
+    return (
         <div className='Home'>
             <Banner image={imgBannerHome} title="Chez vous, partout et ailleurs" imageClassName="home-banner-img" banner="home-banner" alt="paysage de falaises sur un littoral " />
             <section className='container-cards'>
-                {logement.map((logement, index)=> (
-                <Card key={`logement : ${logement.id} - ${index}`} cardId={logement.id} title={logement.title} cover={logement.cover} />
+                {logement.map((logement, index) => (
+                    <Card key={`logement : ${logement.id} - ${index}`} cardId={logement.id} title={logement.title} cover={logement.cover} />
                 ))}
             </section>
         </div>
-	)
-	
-	
+    )
+
+
 }
